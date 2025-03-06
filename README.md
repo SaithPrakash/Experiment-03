@@ -194,4 +194,62 @@ DC Analysis
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
+## Results:
+
+• DC Analysis: The drain current was 0.5 mA, meeting the specifications for Vocm, Vp, and power consumption (P ≤ 2.2 mW).
+
+• Transient Analysis: The amplifier showed a 180-degree phase shift with an output gain of 12.067 dB (4.012), confirming the expected amplification.
+
+• AC Analysis: The amplifier's frequency response was stable, with the theoretical gain matching the practical results across frequencies.
+ 
+## Inference:
+
+In this experiment, we explored the operation and design of a differential amplifier using LTSpice. We found that the differential amplifier effectively rejects common-mode signals while amplifying differential-mode signals, which makes it a key component in operational amplifier (op-amp) design.
+
+We tested three different configurations of the differential amplifier: one with a resistor (Rss), another with a current source (Iss), and a third using an NMOS transistor as a current source in the saturation region.
+
+Of the three configurations, the NMOS current-source design achieved the highest gain of 12.067 dB. However, it exhibited some instability in its frequency response, with noticeable fluctuations before reaching the midband, likely due to the NMOS transistor's characteristics. The current-source configuration proved to be more stable, providing consistent Iss values that closely matched our theoretical predictions and showing less sensitivity to temperature variations. In comparison, the Rss configuration was reliable but more affected by temperature fluctuations and resistance tolerance errors, which could impact current values and power budget.
+
+Overall, the differential amplifier demonstrated its effectiveness in reducing noise by measuring the difference between two drain voltages. A critical factor to note is the need for two perfectly matched N-channel MOSFETs. In LTSpice, we were able to implement this easily using the 180 nm TSMC .lib technology file.
+
+
+
+
