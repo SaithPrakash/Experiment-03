@@ -187,8 +187,6 @@ DC Analysis
 
 Transient Analysis
 
-![WhatsApp Image 2025-03-06 at 22 41 10_8d9ed2a9](https://github.com/user-attachments/assets/4c945e98-e228-4437-ae32-5d8cdf13b233)
-
 <pre>
      Vin p-p  = 0.0998 V
      Vout p-p  = 0.3992 V
