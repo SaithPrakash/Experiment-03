@@ -125,7 +125,17 @@ Transient Analysis
 
 ![WhatsApp Image 2025-03-06 at 22 41 10_fe2e8d3e](https://github.com/user-attachments/assets/df9bed18-9998-48e8-9f2c-912f0a12e6c7)
 
+<pre>
+     Vin p-p  = 0.0998 V
+     Vout p-p  = 0.3975
 
+     Av =  Vout p-p / Vin p-p
+        =  0.3992 / 0.0998
+        = 4
+
+     Av (dB) = 20 log(4) = 12.0411
+ 
+</pre>
 
 
 
@@ -148,8 +158,10 @@ Input swing :
 
  AC Analysis
 
-![WhatsApp Image 2025-03-06 at 22 41 10_313be329](https://github.com/user-attachments/assets/a434d76d-9b3a-4206-9d92-68d6bec066c7)
+![image](https://github.com/user-attachments/assets/4f3efd46-bcdf-4835-88d1-07c5e4c8b482)
 
+
+![image](https://github.com/user-attachments/assets/1bdc6479-0ef1-4220-9506-f7c1130c671f)
 
 
 
@@ -189,10 +201,15 @@ Transient Analysis
  
 </pre>
 
+![image](https://github.com/user-attachments/assets/b4dd038d-3ea3-4650-b374-1e41cc14b91a)
+
  AC Analysis
 
+![image](https://github.com/user-attachments/assets/9400417a-b99f-4e9c-8ec3-0dc04c0c919b)
 
+![image](https://github.com/user-attachments/assets/8df9ad21-3a57-4fc6-9f9b-6df161d1a7d6)
 
+Av =12.03
 
 
 
@@ -239,7 +256,7 @@ AC Analysis
 
 ![image](https://github.com/user-attachments/assets/db010c32-45f7-417d-816c-485b4219f634)
 
-Av =12.1 
+Av = 12.1 
 
 
 
