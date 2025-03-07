@@ -132,7 +132,19 @@ Transient Analysis
 
 
 
+<pre>
+  Output swing :
+          Vo max = Vdd = 2.2 V
+          Vo min = Vov + Vss = 1.234
+     V 
+ 
+We know , Av = 1.3942
+ 
+Input swing :
+          Vin max =  2.2952 V
+          Vin min =  1.31544  V 
 
+ </pre>
 
  AC Analysis
 
@@ -165,6 +177,17 @@ Transient Analysis
 
 ![WhatsApp Image 2025-03-06 at 22 41 10_8d9ed2a9](https://github.com/user-attachments/assets/4c945e98-e228-4437-ae32-5d8cdf13b233)
 
+<pre>
+     Vin p-p  = 0.0998 V
+     Vout p-p  = 0.3992 V
+
+     Av =  Vout p-p / Vin p-p
+        =  0.3992 / 0.0998
+        = 4
+
+     Av (dB) = 20 log(4) = 12.0411
+ 
+</pre>
 
  AC Analysis
 
@@ -178,25 +201,45 @@ Transient Analysis
 If the resistor Rss is replaced by a MOSFET in a MOS differential amplifier, it can offer similar benefits to using a current source, but with some additional advantages. The MOSFET can be operated in its saturation region to act as a current source, providing high output resistance and improving the amplifier’s gain. This configuration offers better voltage gain, more precise current control , and improved stability compared to a resistor. Additionally, using a MOSFET can make the circuit more temperature stable and less sensitive to variations in transistor parameters. The MOSFET also helps in maintaining a constant current through the differential pair, reducing distortion and improving the common-mode rejection ratio (CMRR), ultimately enhancing overall performance and efficiency.
 
 
+
+![image](https://github.com/user-attachments/assets/573c2577-8a04-4c81-bff2-d255455e8bd0)
+
 DC Analysis
 
+![image](https://github.com/user-attachments/assets/45ffffdd-97bf-4e92-a364-e39b8d13b157)
 
 
+![image](https://github.com/user-attachments/assets/5716e0ab-dcb2-47a0-b82b-59be3e2559ea)
 
 
+Transient Analysis
+
+![image](https://github.com/user-attachments/assets/8d97ec43-2cb4-4286-b674-3249fd915851)
 
 
+![image](https://github.com/user-attachments/assets/12aa1d6b-aa2d-417b-a6f7-c4d53e30853a)
+
+<pre>
+     Vin p-p  = 0.0998 V
+     Vout p-p  = 0.402 V
+
+     Av =  Vout p-p / Vin p-p
+        =  0.402 / 0.0998
+        = 4.02805
+
+     Av (dB) = 20 log(4.02805) = 12.1018
+ 
+</pre>
 
 
+AC Analysis
+
+![image](https://github.com/user-attachments/assets/de052bbd-7b43-4839-bc26-2d5d9ab1d58a)
 
 
+![image](https://github.com/user-attachments/assets/db010c32-45f7-417d-816c-485b4219f634)
 
-
-
-
-
-
-
+Av =12.1 
 
 
 
